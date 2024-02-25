@@ -134,11 +134,10 @@ textarea:focus {
   max-width: 100%; 
 }
 
+
+
 footer {
   background-color: rgb(254, 154, 187);
-  height: 200px;
+  padding: 200px;
   text-align: center;
 }
-
-
-
