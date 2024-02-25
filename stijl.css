@@ -136,17 +136,17 @@ textarea:focus {
 
 footer {
     background-color: rgb(254, 154, 187);
-    padding: 200px; 
+    height: 200px; /* Hier wordt de hoogte ingesteld */
     text-align: center;
-    width: 100%; 
-    max-width: 1200px; 
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 @media (max-width: 576px) {
     footer {
-        width: 100%; 
-      padding: 200px;
+        height: 200px; /* Behoudt dezelfde hoogte */
     }
 }
+
 
