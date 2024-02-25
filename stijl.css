@@ -135,10 +135,9 @@ textarea:focus {
 }
 
 footer {
-    background-color: rgb(254, 154, 187);
-    height: 200px; /* Hoogte instellen op 200px */
-    text-align: center; /* Tekst in het midden uitlijnen */
-    line-height: 200px; /* Verticale uitlijning van tekst */
+  background-color: rgb(254, 154, 187);
+  padding: 200px;
+  text-align: center;
 }
 
 
