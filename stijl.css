@@ -134,15 +134,13 @@ textarea:focus {
   max-width: 100%; 
 }
 
-
-
 footer {
     background-color: rgb(254, 154, 187);
-    padding: 200px; 
+    padding: 20px; 
     text-align: center;
-    width: 90%; 
+    width: 100%; 
     max-width: 1200px; 
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 @media (max-width: 576px) {
@@ -150,3 +148,4 @@ footer {
         width: 100%; 
     }
 }
+
