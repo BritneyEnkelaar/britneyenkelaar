@@ -146,6 +146,7 @@ footer {
 @media (max-width: 576px) {
     footer {
         width: 100%; 
+      padding: 200px;
     }
 }
 
