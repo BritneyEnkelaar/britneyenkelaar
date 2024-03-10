@@ -6,70 +6,36 @@
     <title>Britney Enkelaar</title>
     <link rel="stylesheet" href="stijl.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">BRITNEY ENKELAAR</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="overmij.html">Over mij</a>
-                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">BRITNEY ENKELAAR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="overmij.html">Over mij</a>
+                        <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    
-    <div class="container">
-        <h1>Welkom!</h1>
-        <p>Welkom op mijn website! Ik ben Britney Enkelaar en ik ben blij dat je de tijd neemt om mijn website te verkennen. Hier deel ik graag meer over mezelf, mijn passies en mijn achtergrond. Als je hier bent, ben je waarschijnlijk nieuwsgierig naar wie ik ben. Hier ga je door mijn website dan ook zeker achterkomen!</p>
-        <p>Mocht je vragen hebben of gewoon hallo willen zeggen, aarzel dan niet om contact met me op te nemen. Ik kijk ernaar uit om van je te horen!</p>
-    </div>
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-4">
-                <img src="afbeeldingen/concert.jpg" alt="Afbeelding 1" height="300">
-            </div>
-            <div class="col-sm-4">
-                <img src="afbeeldingen/mowgli.jpg" alt="Afbeelding 2" height="300">
-            </div>
-            <div class="col-sm-4">
-                <img src="afbeeldingen/paul.jpg" alt="Afbeelding 3" height="300">
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-4">
-                <img src="afbeeldingen/disney1.jpg" alt="Afbeelding 4" height="300">
-            </div>
-            <div class="col-sm-4">
-                <img src="afbeeldingen/disney.jpg" alt="Afbeelding 5" height="300">
-            </div>
-            <div class="col-sm-4">
-                <img src="afbeeldingen/disney2.jpg" alt="Afbeelding 6" height="300">
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-4">
-                <img src="afbeeldingen/barista.jpg" alt="Afbeelding 7" height="300">
-            </div>
-            <div class="col-sm-4">
-                <img src="afbeeldingen/ski.jpg" alt="Afbeelding 8" height="300">
-            </div>
-            <div class="col-sm-4">
-                <img src="afbeeldingen/fotografie.jpg" alt="Afbeelding 9" height="300">
-            </div>
-        </div>
+        </nav>
+    <div class="container"> 
+    <form action="https://formspree.io/f/mgegelvq" method="POST">
+        <h2>Contactformulier</h2>
+        <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required>
+        <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+        <input type="email" id="email" name="email" placeholder="Uw e-mailadres" required>
+        <textarea id="textarea" name="bericht" placeholder="Uw bericht" maxlength="400" required></textarea>
+        <button type="submit">Verzend</button>
+    </form>
     </div>
 
     <footer>&copy; Copyright 2024 Britney Enkelaar</footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
